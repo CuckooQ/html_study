@@ -1,4 +1,4 @@
-const mouse = document.querySelector("#mouse");
+const explanation = document.querySelector("#explanation");
 
 const onClick = event => {
   console.log(`target: 
@@ -19,11 +19,11 @@ const init = () => {
   document.addEventListener("click", onClick);
   document.addEventListener("dblclick", onDblClick);
   document.addEventListener("wheel", onWheel);
-  mouse?.addEventListener("mousedown", onMouseDown);
-  mouse?.addEventListener("mouseup", onMouseUp);
-  mouse?.addEventListener("mouseover", onMouseOver);
-  mouse?.addEventListener("mousemove", onMouseMove);
-  mouse?.addEventListener("mouseout", onMouseOut);
+  explanation?.addEventListener("mousedown", onMouseDown);
+  explanation?.addEventListener("mouseup", onMouseUp);
+  explanation?.addEventListener("mouseover", onMouseOver);
+  explanation?.addEventListener("mousemove", onMouseMove);
+  explanation?.addEventListener("mouseout", onMouseOut);
 }
 
 init();
