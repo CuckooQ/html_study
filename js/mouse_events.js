@@ -6,6 +6,7 @@ const onClick = event => {
   console.log(`screen: ${event.screenX}, ${event.screenY}`);
   console.log(`client: ${event.clientX}, ${event.clientY}`);
   console.log(`page: ${event.pageX}, ${event.pageY}`);
+  console.log(`offset: ${event.offsetX}, ${event.offsetY}`);
 }
 const onDblClick = () => console.log("dblclick");
 const onMouseDown = () => console.log("mouse down");
