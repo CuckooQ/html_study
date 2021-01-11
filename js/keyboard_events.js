@@ -6,9 +6,9 @@ const onKeyDown = event => console.log(`keydown: ${event.key}`);
 const onKeyUp = event => console.log(`keyup: ${event.key}`);
 
 const init = () => {
-    searchInput.addEventListener("keypress", onKeyPress);
-    searchInput.addEventListener("keydown", onKeyDown);
-    searchInput.addEventListener("keyup", onKeyUp);
+    searchInput?.addEventListener("keypress", onKeyPress);
+    searchInput?.addEventListener("keydown", onKeyDown);
+    searchInput?.addEventListener("keyup", onKeyUp);
 }
 
 init();
